@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(90deg, #1672E9 0%, #2077E8 9.09%, #297BE7 18.18%, #3280E6 27.27%, #3A84E5 36.36%, #4288E4 45.45%, #498CE2 54.55%, #5190E1 63.64%, #5A94E0 72.73%, #6299DF 81.82%, #6B9DDD 90.91%, #73A1DC 100%);
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    margin-top: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 15.2px;
+    width: auto;
+    
+    
+}
+
+nav ul  {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px;
+ }
+
+.fotoPerfil {
+    width: 155px;
+    border-radius: 120px;
+    border: 5px solid white;
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px 2px rgba(20, 20, 20, 0.3);
+}
+
+main section {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 15.2px;
+    margin-top: 16px;
+   
+}
+
+main section p {
+    border-left-width: 0px;
+    border-left-style: solid;
+    margin-right: 22px;
+    margin-left: 22px
+}
+
+.botonera {
+    list-style-type: none;
+    padding-left: 0;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 183px;
+}
+
+
+.botonera a {
+       color: inherit;
+       text-decoration: none;
+       font-family: 'Lekton', sans-serif;
+      
+
+     
+    
+}
+
+.botonera li {
+    border: 1.195px solid #A4A4A4;
+    font-size: 15.4px;
+    background: #5626DC;
+    border-radius: 8.364px;
+    border: 1.195px solid #A4A4A4;
+    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 0.73);
+    margin: 22px;
+    margin-top: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}  
+
+#miCv {
+margin-top: 0px;
+}
+
+.botonera li:hover {
+    background:#7245ee;
+    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 5);
+  
+}
+
+.parrafo1{
+    margin-top: 25px;
+}
+
+.parrafo2{
+    margin-bottom: 20px;
+}
+
+footer hr {
+    width: 339px;
+    color: white;
+    margin-top: 15px;
+      
+}
+
+footer h3 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-top: 0px;
+}
