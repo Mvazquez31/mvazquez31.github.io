@@ -52,6 +52,29 @@ main section p {
     margin-right: 15px;
 }
 
+#linkedin {
+    scale: 100%;
+ }
+
+#linkedin:hover {
+    scale: 105%;
+    
+}
+
+#behance:hover {
+    scale: 105%;
+    
+}
+
+#twitter:hover {
+    scale: 105%;
+    
+}
+
+#github:hover {
+    scale: 105%;
+    
+}
 .botonera {
     list-style-type: none;
     padding-left: 0;
@@ -62,7 +85,6 @@ main section p {
     margin-bottom: 0px;
     width: 183px;
 }
-
 
 .botonera a {
        color: inherit;
@@ -157,3 +179,4 @@ footer h3 {
 .miCvIcono {
     width: 20%;
 }
+
