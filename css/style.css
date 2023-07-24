@@ -89,13 +89,13 @@ main section p {
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 0px;
-    width: 183px;
+    width: 196px;
 }
 
 .botonera a {
        color: inherit;
        text-decoration: none;
-       font-family: 'Fjalla One', sans-serif;
+       font-family: 'Lekton', sans-serif;
       
 
      
@@ -107,8 +107,24 @@ main section p {
     font-size: 15.4px;
     background-image: linear-gradient(to right top, #292af8, #5221e6, #661ad4, #7314c3, #7a11b3);
     border-radius: 8.364px;
+    box-shadow: -4px 4px 1px 0px rgba(0, 0, 0, 0.76);
+    margin: 22px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    transform-style: preserve-3d;
+}  
+
+.botonera li:hover {
     border: 1.195px solid #A4A4A4;
-    box-shadow: -2.389606237411499px 3.584409236907959px 0.5px 0px rgba(0, 0, 0, 0.23);
+    font-size: 15.4px;
+    background-image: linear-gradient(to right top, #292af8, #5221e6, #661ad4, #7314c3, #7a11b3);
+    border-radius: 8.364px;
+    background: linear-gradient(to right top, #6b6bf8, #5221e6, #7e31eb, #7314c3, #7a11b3);;
+    box-shadow: -6px 6px 1px 0px rgba(0, 0, 0, 2.76);
     margin: 22px;
     margin-top: 20px;
     padding-top: 14px;
@@ -116,6 +132,7 @@ main section p {
     padding-left: 20px;
     padding-right: 20px;
 }  
+
 
 #miCv {
 margin-top: 0px;
@@ -145,6 +162,16 @@ footer h3 {
     margin-top: 0px;
 }
 
+.miCvIcono {
+    width: 20%;
+}
+
+
+
+
+
+
+/*
 .botonera #miPlaylist li {
     background-image: linear-gradient(to right top, #60da85, #50d675, #3ed264, #29cd52, #00c93d);
     box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 2);
@@ -182,7 +209,4 @@ footer h3 {
   
 }
 
-.miCvIcono {
-    width: 20%;
-}
 
