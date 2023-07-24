@@ -40,7 +40,7 @@ main section {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     color: white;
-    font-size: 15.2px;
+    font-size: 14.2px;
     margin-top: 16px;
    
 }
@@ -48,8 +48,8 @@ main section {
 main section p {
     border-left-width: 0px;
     border-left-style: solid;
-    margin-right: 22px;
-    margin-left: 22px
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .botonera {
@@ -67,7 +67,7 @@ main section p {
 .botonera a {
        color: inherit;
        text-decoration: none;
-       font-family: 'Lekton', sans-serif;
+       font-family: 'Fjalla One', sans-serif;
       
 
      
@@ -77,12 +77,12 @@ main section p {
 .botonera li {
     border: 1.195px solid #A4A4A4;
     font-size: 15.4px;
-    background: #5626DC;
+    background-image: linear-gradient(to right top, #292af8, #5221e6, #661ad4, #7314c3, #7a11b3);
     border-radius: 8.364px;
     border: 1.195px solid #A4A4A4;
-    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 0.73);
+    box-shadow: -2.389606237411499px 3.584409236907959px 0.5px 0px rgba(0, 0, 0, 0.23);
     margin: 22px;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 20px;
@@ -91,12 +91,6 @@ main section p {
 
 #miCv {
 margin-top: 0px;
-}
-
-.botonera li:hover {
-    background:#7245ee;
-    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 5);
-  
 }
 
 .parrafo1{
@@ -121,4 +115,45 @@ footer h3 {
     font-size: 14px;
     margin-bottom: 14px;
     margin-top: 0px;
+}
+
+.botonera #miPlaylist li {
+    background-image: linear-gradient(to right top, #60da85, #50d675, #3ed264, #29cd52, #00c93d);
+    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 2);
+  
+}
+
+.botonera #miPlaylist li:hover {
+    background-image: linear-gradient(to right top, #67b980, #58bd74, #47c068, #32c359, #10c648);
+    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 2);
+  
+}
+
+
+.botonera #misTrabajos li {
+    background-image: linear-gradient(to right top, #8367b9, #8058be, #7e48c2, #7d33c5, #7e10c6);
+    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 2);
+  
+}
+
+.botonera #misTrabajos li:hover {
+    background-image: linear-gradient(to right top, #6742af, #6739ae, #682eac, #6921aa, #6a0ca8);
+    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 2);
+  
+}
+
+.botonera #miCv li {
+    background-image: linear-gradient(to right top, #2069da, #2d73e1, #397ce8, #4386ef, #4e90f6);
+    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 12);
+  
+}
+
+.botonera #miCv li:hover {
+    background-image: linear-gradient(to right top, #4582e1, #558de7, #6499ed, #72a4f2, #81b0f8);
+    box-shadow: -2.389606237411499px 3.584409236907959px 1.1948031187057495px 0px rgba(0, 0, 0, 12);
+  
+}
+
+.miCvIcono {
+    width: 20%;
 }
