@@ -135,23 +135,26 @@ main section p {
 
 
 #miLetterboxd {
-margin-top: 0px;
+    margin-top: 0px;
 }
 
 #miLetterboxd:hover {
     scale: 105%;
-    }
+    color: rgb(255, 238, 0);
+}
     
 
      
 #misTrabajos:hover {
-        scale: 105%;
-        }
+    scale: 105%;
+    color: rgb(255, 238, 0);
+}
     
         
 #miPlaylist:hover {
-            scale: 105%;
-            }
+    scale: 105%;
+    color: rgb(255, 238, 0);
+}
             
 
 .parrafo1{
