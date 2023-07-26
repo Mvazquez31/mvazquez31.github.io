@@ -182,15 +182,9 @@ footer h3 {
 }
 
 section div p a {
-    text-decoration: none;
-    color: rgb(255, 238, 0);
-}
-
-section div p a:hover {
     text-decoration: underline;
-    color: rgb(255, 238, 0);
+    color:white
 }
-
 
 
 
